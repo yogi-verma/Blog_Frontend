@@ -18,7 +18,7 @@ import {
 
 import CommentsHistogram from "./CommentsHistogram";
 
-const API_BASE_URL = "http://localhost:5000/api/v1/posts";
+const API_BASE_URL = "https://blog-frontend-qjw4.onrender.com/api/v1/posts";
 
 const PIE_COLORS = ["#3b82f6", "#9ca3af"];
 const BAR_COLORS = [

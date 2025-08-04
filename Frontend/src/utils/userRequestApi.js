@@ -1,6 +1,6 @@
 // utils/userRequestApi.js
 
-const API_BASE_URL = "http://localhost:5000/api/v1/requests";
+const API_BASE_URL = "https://blog-frontend-qjw4.onrender.com/api/v1/requests";
 
 export const submitUserRequest = async (formData) => {
   try {

@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://localhost:5000/api/v1/comments";
+const API_BASE_URL = "https://blog-frontend-qjw4.onrender.com/api/v1/comments";
 
 // 1. Submit a new comment (no auth)
 export const submitComment = async (postId, commentData) => {

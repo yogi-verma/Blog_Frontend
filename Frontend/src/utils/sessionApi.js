@@ -1,6 +1,6 @@
 // utils/sessionApi.js
 
-const API_BASE_URL = "http://localhost:5000/api/v1/sessions";
+const API_BASE_URL = "https://blog-frontend-qjw4.onrender.com/api/v1/sessions";
 
 /**
  * Get all active sessions for the logged-in user

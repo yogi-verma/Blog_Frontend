@@ -1,6 +1,6 @@
 // src/utils/aiApi.js
 
-const API_BASE_URL = "http://localhost:5000/api/v1/ai"; // Adjust if needed
+const API_BASE_URL = "https://blog-frontend-qjw4.onrender.com/api/v1/ai"; // Adjust if needed
 
 export const generateBlogMeta = async (blogContent) => {
   try {

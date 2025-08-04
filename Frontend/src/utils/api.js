@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:5000/api/v1/auth';
+const API_BASE_URL = 'https://blog-frontend-qjw4.onrender.com/api/v1/auth';
 
 // Helper to get auth headers
 const getAuthHeaders = () => {

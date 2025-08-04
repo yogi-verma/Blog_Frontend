@@ -1,6 +1,6 @@
 // utils/blog_api.js
 
-const API_BASE_URL = 'http://localhost:5000/api/v1/posts';
+const API_BASE_URL = 'https://blog-frontend-qjw4.onrender.com/api/v1/posts';
 
 // Helper function to handle responses
 const handleResponse = async (response) => {

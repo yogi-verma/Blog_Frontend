@@ -9,7 +9,7 @@ const CommentsHistogram = () => {
   useEffect(() => {
     const fetchHistogramData = async () => {
       try {
-        const res = await fetch("http://localhost:5000/api/v1/comments/approved-comments-per-blog");
+        const res = await fetch("https://blog-frontend-qjw4.onrender.com/api/v1/comments/approved-comments-per-blog");
         const json = await res.json();
         setData(json);
       } catch (err) {
